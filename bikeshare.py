@@ -202,9 +202,9 @@ def main():
         df = load_data(city, month, day)
 
         time_stats(df)
-      
+        display_rows(df)
         station_stats(df)
-        
+        display_rows(df)
         trip_duration_stats(df)
         display_rows(df)
         user_stats(df)
